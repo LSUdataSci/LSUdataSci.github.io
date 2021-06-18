@@ -9,11 +9,10 @@ params:
   # Conference info
   Name: "Geaux code"
   Description: "codeFests and makerSpaces @LSU"
-  Date: ""
   Venue: "Life Sciences Building"
-  Address: "Louisiana State University"
+  Address: "Life Sciences Annex, Louisiana State University, 386 S Campus Dr."
   City:  "Baton Rouge"
-  State: "LA"
+  State: "LA, 70802"
   Images: ["/img/badge.jpg"]
 #  GoogleMapsKey: "my-secret-maps-key"
 
@@ -24,7 +23,6 @@ params:
     - location
     - schedule
     - partners
-    - contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -32,7 +30,7 @@ params:
     location: "Location"
     schedule: "Schedule"
     partners: "Partners"
-    contact: "Contact"
+
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -53,50 +51,47 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "September 3"
-      time: "17h00"
-      company: "codeFest"
-      bio: "This month we will explore host-virus interaction data compiled by the Verena consortium, a collection of early-career virologists, ecologists, computational scientists, and policy experts."
-      link: 
-        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
-        text: "register here"
+    - name: ""
+      time: ""
+      presentation:
+        time: "September 3 @ 5pm-7pm"
+        title: "codeFest in the Life Sciences Building annex"
+        description: "This month we will explore host-virus interaction data compiled by the Verena consortium, a collection of early-career virologists, ecologists, computational scientists, and policy experts."
 
-    - name: "October 1"
-      time: "17h00"
-      company: "makerSpace"
-      bio: "This month we will make some neat things"
-      link: 
-        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
-        text: "register here"
+    - name: ""
+      time: ""
+      presentation:
+        time: "October 1 @ 5pm-7pm"
+        title: "makerSpace in the Life Sciences Building annex"
+        description: "This month we will make some neat things"
 
-    - name: "November 5"
-      time: "17h00"
-      company: "codeFest"
-      bio: "This month we will explore some long-term monitoring data to explore, visualize, and analyze spatial and temporal patterns of ecological communities as part of NEON, the National Ecological Observatory Network"
-      link: 
-        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
-        text: "register here"
-        
-    - name: "December 3"
-      time: "17h00"
-      company: "makerSpace"
-      bio: "This month we will make some neat things. Maybe something with LEDs for the holidays?"
-      link: 
-        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
-        text: "register here"
 
-    - name: "February 4"
-      time: "17h00"
-      company: "codeFest"
-      bio: "This month we will make some neat things"
-      link: 
-        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
-        text: "register here"    
+    - name: ""
+      time: ""
+      presentation:
+        time: "November 5 @ 5pm-7pm"
+        title: "codeFest in the Life Sciences Building annex"
+        description: "This month we will explore some long-term monitoring data to explore, visualize, and analyze spatial and temporal patterns of ecological communities as part of NEON, the National Ecological Observatory Network"
 
-    - name: "March 4"
-      time: "17h00"
-      company: "makerSpace"
-      bio: "This month we will make some neat things."
-      link: 
-        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
-        text: "register here"
+
+    - name: ""
+      time: ""
+      presentation:
+        time: "December 5 @ 5pm-7pm"
+        title: "makerSpace in the Life Sciences Building annex"
+        description: "This month we will make some neat things. Maybe something with LEDs for the holidays?"
+
+    - name: ""
+      time: ""
+      presentation:
+        time: "February 4 @ 5pm-7pm"
+        title: "codeFest in the Life Sciences Building annex"
+        description: "This month we will make some neat things. Maybe some generative art?"
+
+    - name: ""
+      time: ""
+      presentation:
+        time: "March 4 @ 5pm-7pm"
+        title: "makerSpace in the Life Sciences Building annex"
+        description: "This month we will make some neat things."
+
