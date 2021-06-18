@@ -10,7 +10,6 @@ params:
   Name: "Geaux code"
   Description: "codeFests and makerSpaces @LSU"
   Date: ""
-#  Price: "Only $100" # If your event is free, just comment this line
   Venue: "Life Sciences Building"
   Address: "Louisiana State University"
   City:  "Baton Rouge"
@@ -23,7 +22,6 @@ params:
   Sections:
     - about
     - location
-    - speakers
     - schedule
     - partners
     - contact
@@ -32,7 +30,6 @@ params:
   Titles:
     about: "About"
     location: "Location"
-    speakers: "Speakers"
     schedule: "Schedule"
     partners: "Partners"
     contact: "Contact"
@@ -41,7 +38,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register"
-    link: "http://register.example.com"
+    link: "https://github.com/LSUdataSci/LSUdataSci.github.io/issues"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #  ForkButton:
@@ -49,64 +46,57 @@ params:
 
   # List of Partners
   Partners:
-    - name: "We don't have any!"
-      logo: ""
-      url: ""
+    - name: "Louisiana State University"
+      logo: "https://www.lsu.edu/science/your_question_next/images/logos/maincollege_vertical.png"
+      url: "https://www.lsu.edu/science/"
 
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+    - name: "September 3"
+      time: "17h00"
+      company: "codeFest"
+      bio: "This month we will explore host-virus interaction data compiled by the Verena consortium, a collection of early-career virologists, ecologists, computational scientists, and policy experts."
+      link: 
+        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
+        text: "register here"
 
-    - name: "Linus Torvalds"
-      photo: "/img/speaker.jpg"
-      bio: "ris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
-      link:
-        href: "http://twitter.com/linus"
-        text: "@linus"
-      presentation:
-        title: "Digging into a Linux Kernel"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
+    - name: "October 1"
+      time: "17h00"
+      company: "makerSpace"
+      bio: "This month we will make some neat things"
+      link: 
+        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
+        text: "register here"
 
-    - name: "Bill Gates"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Microsoft"
-      link:
-        href: "http://github.com/billy95"
-        text: "@billy95"
-      presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "11h00"
+    - name: "November 5"
+      time: "17h00"
+      company: "codeFest"
+      bio: "This month we will explore some long-term monitoring data to explore, visualize, and analyze spatial and temporal patterns of ecological communities as part of NEON, the National Ecological Observatory Network"
+      link: 
+        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
+        text: "register here"
+        
+    - name: "December 3"
+      time: "17h00"
+      company: "makerSpace"
+      bio: "This month we will make some neat things. Maybe something with LEDs for the holidays?"
+      link: 
+        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
+        text: "register here"
 
-    - name: "Lunch"
-      time: "12h00"
+    - name: "February 4"
+      time: "17h00"
+      company: "codeFest"
+      bio: "This month we will make some neat things"
+      link: 
+        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
+        text: "register here"    
 
-    - name: "Chuck Norris"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
-      link:
-        href: "http://twitter.com/littlechuck"
-        text: "@littlechuck"
-      presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
-
-    - name: "Steve Jobs"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://github.com/stevie"
-        text: "@stevie"
-      presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
-
+    - name: "March 4"
+      time: "17h00"
+      company: "makerSpace"
+      bio: "This month we will make some neat things."
+      link: 
+        href: https://github.com/LSUdataSci/LSUdataSci.github.io/issues
+        text: "register here"
