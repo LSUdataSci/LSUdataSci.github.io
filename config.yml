@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: ""
 title: "Geaux code!"
 canonifyurls: true
 theme: "hugo-conference"
