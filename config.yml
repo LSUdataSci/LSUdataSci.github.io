@@ -1,4 +1,4 @@
-baseurl: ""
+baseurl: "https://lsudatasci.github.io/"
 title: "Geaux code!"
 canonifyurls: true
 theme: "hugo-conference"
