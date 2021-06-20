@@ -14,7 +14,6 @@ params:
   City:  "Baton Rouge"
   State: "LA, 70802"
   Images: ["/img/badge.jpg"]
-#  GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -31,23 +30,19 @@ params:
     schedule: "Schedule"
     partners: "Partners"
 
-
+  About: "We are a group of biologists and data scientists at Louisiana State University who are inviting you to participate in codeFests and makerSpaces. These are monthly events focused on providing a creative and educational outlet for students interested in writing code and building small hardware projects. By doing so, we aim to build interdisciplinary connections across the College of Science, foster creativity and teamwork, and provide students experience in data science. For more information on upcoming events, please see the Schedule or check us out on GitHub (https://github.com/lsuDataSci). For more information on the data science concentration in biological sciences at LSU, please see https://www.lsu.edu/science/biosci/!"
+  
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Register"
+    text: "Register for an upcoming event!"
     link: "https://github.com/LSUdataSci/LSUdataSci.github.io/issues"
-
-  # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  #  ForkButton:
-  #    repository: "https://github.com/jweslley/hugo-conference/"
 
   # List of Partners
   Partners:
     - name: "Louisiana State University"
       logo: "https://www.lsu.edu/science/your_question_next/images/logos/maincollege_vertical.png"
       url: "https://www.lsu.edu/science/"
-
 
   # The entire schedule
   Schedule:
