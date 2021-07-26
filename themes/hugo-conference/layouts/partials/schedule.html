@@ -8,6 +8,7 @@
         <th class="schedule-time">Time</th>
         <th class="schedule-slot">Slot</th>
         <th class="schedule-description">Description</th>
+        <th class="schedule-company">Link</th>        
       </tr>
     </thead>
     <tbody>
@@ -23,15 +24,17 @@
             {{ end }}
 
               {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
+              <span class="schedule-company">{{ .company }}</span>
             </td>
             <td class="schedule-description">{{ .presentation.description }}</td>
+            <td class="schedule-company"><a href={{ .presentation.company }}><img src="/img/computer.png" alt="Check it out!" style="width:50px;height:50px;"></a></td>            
           </tr>
         {{ else }}
           <tr class="schedule-other">
             <td class="schedule-time">{{ .time }}</td>
             <td class="schedule-slot">{{ .name }}</td>
             <td class="schedule-description">-</td>
+            <td class="schedule-company">{{ .presentation.company }}</td>            
           </tr>
         {{ end }}
       {{ end }}

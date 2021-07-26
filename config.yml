@@ -44,6 +44,12 @@ params:
       logo: "https://www.lsu.edu/science/your_question_next/images/logos/maincollege_vertical.png"
       url: "https://www.lsu.edu/science/"
 
+    - name: "Louisiana State University"
+      logo: "https://pbs.twimg.com/profile_images/1027932669475094529/doKFCPLQ_400x400.jpg"
+      url: "https://www.lsu.edu/science/biosci/"
+
+
+
   # The entire schedule
   Schedule:
     - name: ""
@@ -52,6 +58,7 @@ params:
         time: "September 3 @ 5pm-7pm"
         title: "codeFest in the Life Sciences Building annex"
         description: "This month we will explore host-virus interaction data compiled by the Verena consortium, a collection of early-career virologists, ecologists, computational scientists, and policy experts."
+        company: "https://github.com/LSUdataSci/verenaCodeFest"
 
     - name: ""
       time: ""
@@ -59,7 +66,7 @@ params:
         time: "October 1 @ 5pm-7pm"
         title: "makerSpace in the Life Sciences Building annex"
         description: "This month we will make some neat things"
-
+        company: "https://github.com/LSUdataSci/makerSpace"
 
     - name: ""
       time: ""
@@ -67,7 +74,7 @@ params:
         time: "November 5 @ 5pm-7pm"
         title: "codeFest in the Life Sciences Building annex"
         description: "This month we will explore some long-term monitoring data to explore, visualize, and analyze spatial and temporal patterns of ecological communities as part of NEON, the National Ecological Observatory Network"
-
+        company: "https://github.com/LSUdataSci/neonCodeFest"
 
     - name: ""
       time: ""
@@ -75,18 +82,21 @@ params:
         time: "December 5 @ 5pm-7pm"
         title: "makerSpace in the Life Sciences Building annex"
         description: "This month we will make some neat things. Maybe something with LEDs for the holidays?"
-
+        company: "https://github.com/LSUdataSci/makerSpace"
+        
     - name: ""
       time: ""
       presentation:
         time: "February 4 @ 5pm-7pm"
         title: "codeFest in the Life Sciences Building annex"
         description: "This month we will make some neat things. Maybe some generative art?"
-
+        company: "https://github.com/LSUdataSci/"
+        
     - name: ""
       time: ""
       presentation:
         time: "March 4 @ 5pm-7pm"
         title: "makerSpace in the Life Sciences Building annex"
         description: "This month we will make some neat things."
+        company: "https://github.com/LSUdataSci/makerSpace"
 
