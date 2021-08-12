@@ -307,7 +307,10 @@ p {
   font-size: 1.6em;
   line-height: 1.6em;
   margin-bottom: 1.4em;
+  text-align: center;
 }
+
+
 .photo {
   max-width: 100%;
   position: relative;
@@ -717,7 +720,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/cover2.jpg');
+  background-image: url('../img/geaux.png');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center bottom;

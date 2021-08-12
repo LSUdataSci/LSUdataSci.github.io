@@ -13,7 +13,7 @@ params:
   Address: "Life Sciences Annex, Louisiana State University, 386 S Campus Dr."
   City:  "Baton Rouge"
   State: "LA, 70802"
-  Images: ["/img/badge.jpg"]
+  Images: ["/img/geaux.png"]
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
