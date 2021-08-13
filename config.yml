@@ -33,7 +33,7 @@ params:
 
   CallToAction:
     text: "Click here to register for the next makerSpace or codeFest!"
-    link: "#"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSczg_K4uYRHoPiLbaueteTGQxRf0VFoRJGrwg4Ldcbu4s68Sw/viewform?usp=sf_link"
 
   # List of Partners
   Partners:
