@@ -81,7 +81,7 @@ params:
     - name: ""
       time: ""
       presentation:
-        time: "December 5 @ 5pm-8pm"
+        time: "December 3 @ 5pm-8pm"
         title: "codeFest in the Life Sciences Building annex"
         description: "This month we will explore some long-term monitoring data to explore, visualize, and analyze spatial and temporal patterns of ecological communities as part of NEON, the National Ecological Observatory Network"
         company: "https://github.com/LSUdataSci/neonCodeFest"
