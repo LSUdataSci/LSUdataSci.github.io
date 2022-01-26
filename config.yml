@@ -45,6 +45,13 @@ params:
       logo: "https://pbs.twimg.com/profile_images/1027932669475094529/doKFCPLQ_400x400.jpg"
       url: "https://www.lsu.edu/science/biosci/"
 
+    - name: "Li lab"
+      logo: ""
+      url: "https://www.dlilab.com"
+
+    - name: "Brown lab"
+      url: "https://phyleauxlab.github.io"
+
     - name: "Dallas lab"
       logo: "/img/tShirt.png"
       url: "https://taddallas.github.io"
@@ -55,7 +62,7 @@ params:
     - name: ""
       time: ""
       presentation:
-        time: "September 3 @ 5pm-8pm"
+        time: "September 3, 2021 @ 5pm-8pm"
         title: "POSTPONED DUE TO HURRICANE"
         description: "This month we will explore host-virus interaction data compiled by the Verena consortium, a collection of early-career virologists, ecologists, computational scientists, and policy experts."
         company: "https://github.com/LSUdataSci/verenaCodeFest"
