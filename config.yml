@@ -46,6 +46,7 @@ params:
       url: "https://www.lsu.edu/science/biosci/"
 
     - name: "Brown lab"
+      logo: "/img/BrownLab.svg"
       url: "https://phyleauxlab.github.io"
 
     - name: "Dallas lab"
